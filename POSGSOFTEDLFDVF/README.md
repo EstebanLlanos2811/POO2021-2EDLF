@@ -5,7 +5,7 @@
 <h4>Se encarga de realizar actas de grado y de tener un control de notas para los estudiantes de posgrado, más concretamente para los estudiantes de maestría en ingeniería de software.<h4>
 
 
-<h2>Objetivo general del proyecto<h2>
+<h2>Principales funciones del proyecto<h2>
 
 <h3>Cálculo nota final<h3>
 
