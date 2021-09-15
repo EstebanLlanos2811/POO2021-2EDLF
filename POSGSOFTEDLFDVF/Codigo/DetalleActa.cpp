@@ -1,10 +1,11 @@
 #include <iostream>
 #include "DetalleActa.h"
 
-DetalleActa::DetalleActa()
+DetalleActa::DetalleActa() //Inicializador de variables y los atributos
 {
 }
 
+//gets y sets
 TrabajoEstudiante DetalleActa::getTrabajoEstudiante()
 {
 	return trabajoEstudiante;
@@ -15,7 +16,7 @@ void DetalleActa::setTrabajoEstudiante(TrabajoEstudiante trabajoEstudiante)
     this->trabajoEstudiante = trabajoEstudiante;
 }
 
-void DetalleActa::agregarCriterios()
+void DetalleActa::agregarCriterios() //Se encarga de agregar la descripcion del problema a ser evaluado
 {
     int i;
     for(i = 0; i < CAP; i++)
@@ -26,7 +27,7 @@ void DetalleActa::agregarCriterios()
     }
 }
 
-void DetalleActa::agregarCriteriosValor()
+void DetalleActa::agregarCriteriosValor() //Se encarga de darle un peso a criterio anteriormente asignado
 {
     int i;
     float valorTemp;
@@ -40,7 +41,7 @@ void DetalleActa::agregarCriteriosValor()
     }
 }
 
-void DetalleActa::mostrarDetalle()
+void DetalleActa::mostrarDetalle() //Se encarga de mostrar los detalles del acta y del TrabajoEstudiante
 {
     int i;
     cout << trabajoEstudiante.getNombreEstudiante() << "\n";

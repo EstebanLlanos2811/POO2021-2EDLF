@@ -1,4 +1,5 @@
 #ifndef POSGRADOJAVERIANA_H
+//Guardas
 #define POSGRADOJAVERIANA_H
 
 #include <stdlib.h>
@@ -15,13 +16,13 @@ using std::string;
 
 class PosgradoJaveriana
 {
-private:
+private: //Atributos
     string nombre;
     vector<Acta> actas;
     vector<TrabajoEstudiante> trabajosEstudiantes;
     int contNumeroActas;
 
-public:
+public: //Metodos
     PosgradoJaveriana();
     PosgradoJaveriana(string nombre);
     string getNombre();

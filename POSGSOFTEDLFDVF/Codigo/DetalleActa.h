@@ -1,4 +1,5 @@
 #ifndef DETALLEFACTA_H
+//Guardas
 #define DETALLEACTA_H
 
 #include <stdlib.h>
@@ -6,6 +7,7 @@
 #include <string.h>
 #include "TrabajoEstudiante.h"
 
+//Inclusion de librerias
 using std::cin;
 using std::cout;
 using std::endl;

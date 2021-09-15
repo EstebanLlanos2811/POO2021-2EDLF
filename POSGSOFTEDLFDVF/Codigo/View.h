@@ -1,4 +1,5 @@
 #ifndef VIEW_H
+//Guardas
 #define VIEW_H
 
 #include <iostream>
@@ -13,11 +14,11 @@ using std::string;
 
 class View
 {
-private:
+private: //Atributos
 	PosgradoJaveriana posgradoJaveriana;
 	void mostrarCriterios();
 
-public:
+public: //Metodos
 	View(); //Constructor
 	void mostrarMenu();
 };

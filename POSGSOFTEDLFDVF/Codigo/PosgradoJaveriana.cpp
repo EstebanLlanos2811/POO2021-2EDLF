@@ -1,13 +1,14 @@
 #include <iostream>
 #include "PosgradoJaveriana.h"
 
-PosgradoJaveriana::PosgradoJaveriana()
+PosgradoJaveriana::PosgradoJaveriana()//Inicializador de variables y atributos
 {
     this->nombre = "Maetrias";
     this->contNumeroActas = 0;
 }
 
-void PosgradoJaveriana::agregarTrabajoEstudiantes()
+void PosgradoJaveriana::agregarTrabajoEstudiantes() //Se encarga de preguntarle a el o la asistente los valores pertenecientes al acta, esto con el fin de crearla
+                                                    //y asignar valores, para que sean usados en las funciones posteriormente
 {
     string nombre, nombreTrabajo, tipoTrabajo, nombreDirector, nombreCodirector, nombreJurado1, nombreJurado2, fecha;
     fflush(stdin); 
@@ -18,7 +19,7 @@ void PosgradoJaveriana::agregarTrabajoEstudiantes()
     getline(cin, nombreTrabajo);
     cout << "Ingrese el tipo de trabajo: ";
     getline(cin, tipoTrabajo);
-    cout << "Ingrese el nombre del director o directora: ";
+    cout << "Ingrese el nombre del director o directora: "; //Esta parte del codigo se encarga de preguntar los valores
     getline(cin, nombreDirector);
     cout << "Ingrese el nombre del codirector o codirectora: ";
     getline(cin, nombreCodirector);
@@ -33,7 +34,7 @@ void PosgradoJaveriana::agregarTrabajoEstudiantes()
     trabajoEstudianteTemp.setNombreEstudiante(nombre);
     trabajoEstudianteTemp.setNombreTrabajo(nombreTrabajo);
     trabajoEstudianteTemp.setTipoTrabajo(tipoTrabajo);
-    trabajoEstudianteTemp.setNombreDirector(nombreDirector);
+    trabajoEstudianteTemp.setNombreDirector(nombreDirector);  //Esta parte se encarga de asignar los valores por medio de sets
     trabajoEstudianteTemp.setNombreCodirector(nombreCodirector);
     trabajoEstudianteTemp.setNombreJurado1(nombreJurado1);
     trabajoEstudianteTemp.setNombreJurado2(nombreJurado2);
@@ -43,12 +44,12 @@ void PosgradoJaveriana::agregarTrabajoEstudiantes()
     contNumeroActas++;
 }
 
-void PosgradoJaveriana::agregarCriterios()
+void PosgradoJaveriana::agregarCriterios() //Se encarga de preguntarle al director o directora los criterios a ser evaluados y el valor de los mismos
 {
 
 }
 
-float PosgradoJaveriana::calcularNotaFinal()
+float PosgradoJaveriana::calcularNotaFinal() //Como su nombre lo indica se encarga de calcular la nota final por medio de las notas publicadas por los dos jurados
 {
     int i;
     float notaJurado1 = 0, notaJurado2 = 0, notaFinal = 0;
@@ -63,7 +64,7 @@ float PosgradoJaveriana::calcularNotaFinal()
     
 }
 
-void PosgradoJaveriana::mostrarActas()
+void PosgradoJaveriana::mostrarActas() //Se encarga de imprimir la informacion correspondiente al acta
 {
     int i;
     for (vector<Acta>::iterator pActa = actas.begin(); pActa != actas.end(); pActa++)
@@ -78,10 +79,10 @@ void PosgradoJaveriana::mostrarActas()
     }
 }
 
-void PosgradoJaveriana::modificarCriterios()
+void PosgradoJaveriana::modificarCriterios() //Se encarga de modificar los criterios a evaluar y esta funcion solo la puede ejecutar el director o directora del programa
 {
 }
 
-void PosgradoJaveriana::modificarValorCriterios()
+void PosgradoJaveriana::modificarValorCriterios() //Se encarga de modificar los valores de los criterios a ser evaluados
 {
 }

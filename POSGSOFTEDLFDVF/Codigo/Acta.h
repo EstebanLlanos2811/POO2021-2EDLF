@@ -1,4 +1,5 @@
 #ifndef ACTA_H
+//Guardas
 #define ACTA_H
 
 #include <stdlib.h>
@@ -7,6 +8,7 @@
 #include <vector>
 #include "DetalleActa.h"
 
+//Inclusion de librerias
 using std::cin;
 using std::cout;
 using std::endl;
@@ -15,13 +17,13 @@ using std::vector;
 
 enum estado
 {
-  reprobado,
+  reprobado, 
   aprobado
 };
 
 class Acta
 {
-private:
+private: //Atributos
     vector<DetalleActa> listaDetalles;
     int estado;
     float notaJurado1;
@@ -29,8 +31,10 @@ private:
     float notaFinal;
     
 public:
-    Acta();
+    Acta(); //Constructor
     void mostrarActa();
+
+    //Gets y Sets
     float getNotaJurado1();
     void setNotaJurado1(float notaJurado1);
     float getNotaJurado2();

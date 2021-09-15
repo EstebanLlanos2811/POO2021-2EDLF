@@ -1,11 +1,11 @@
 #include <iostream>
 #include "Acta.h"
 
-Acta::Acta()
+Acta::Acta() //Inicializador de variables y atributos
 {
 }
 
-void Acta::mostrarActa()
+void Acta::mostrarActa() //Se encarga de mostrar la informacion perteneciente al acta
 {
     cout << "=================================";
     cout << "Los detalles del acta son: \n";
@@ -21,6 +21,7 @@ void Acta::mostrarActa()
     cout << "El estado de la entrega: " << this->estado;
 }
 
+//gets y sets
 int Acta::getEstado()
 {
     return this->estado;

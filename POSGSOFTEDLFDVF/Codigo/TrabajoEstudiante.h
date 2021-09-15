@@ -1,10 +1,12 @@
 #ifndef TRABAJOESTUDIANTE_H
+//Guardas
 #define TRABAJOESTUDIANTE_H
 
 #include <stdlib.h>
 #include <iostream>
 #include <string.h>
 
+//Inclusion de librerias
 using std::cin;
 using std::cout;
 using std::endl;

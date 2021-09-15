@@ -1,7 +1,7 @@
 #include <iostream>
 #include "TrabajoEstudiante.h"
 
-TrabajoEstudiante::TrabajoEstudiante()
+TrabajoEstudiante::TrabajoEstudiante()//Inicializador de variables y atributos
 {
     this->nombreEstudiante = nombreEstudiante;
     this->nombreTrabajo = nombreTrabajo;
@@ -12,6 +12,7 @@ TrabajoEstudiante::TrabajoEstudiante()
     this->nombreJurado2 = nombreJurado2;
 }
 
+//gets y sets
 string TrabajoEstudiante::getNombreEstudiante()
 {
 	return nombreEstudiante;
