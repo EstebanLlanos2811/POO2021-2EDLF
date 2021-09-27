@@ -2,12 +2,11 @@ Facultad de Ingenieria
 Pontificia Universidad Javeriana de Cali 
 Maestria en Ingenieria de Sistemas 
 El numero de acta es: 0
-La fecha de acta es: 27/09/2021
-El nombre del estidiante es: Esteban
-El nombre del trabajo es: Proyecto
-El tipo de trabajo es: investigacion
-El nombre del director es: luisa
+La fecha de acta es: 14/09/2021
+El nombre del estidiante es: Esteban Llanos
+El nombre del trabajo es: Proyecto POO
+El tipo de trabajo es: Investigacion
+El nombre del director es: Luisa Rincon
 El nombre del codirector es: NA
-
-El nombre del primer jurado es: Luis
-El nombre del segundo jurado es: Gonzo
+El nombre del primer jurado es: Gonzo
+El nombre del segundo jurado es: Luisa

@@ -65,7 +65,7 @@ void PosgradoJaveriana::agregarActa()
     }
     else if(opc == 0)
     {
-        nombreCodirector = "NA\n";
+        nombreCodirector = "NA";
     }
     cout << "Ingrese el nombre del jurado 1: ";
     getline(cin, nombreJurado1);
