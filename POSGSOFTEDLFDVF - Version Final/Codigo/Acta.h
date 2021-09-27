@@ -57,5 +57,4 @@ public:
         float getNotaFinal();
         void setNotaFinal();
         vector<DetalleActa> getDetalles() const { return listaDetalles; }
-
 };
