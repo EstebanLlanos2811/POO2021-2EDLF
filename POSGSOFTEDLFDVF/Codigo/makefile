@@ -1,4 +1,4 @@
-all: compilar
+all: compilar 
 compilar: trabajoEstudiante posgradoJaveriana detalleActa acta view main
 		g++ -o Salida TrabajoEstudiante.o DetalleActa.o Acta.o PosgradoJaveriana.o View.o Main.o
 trabajoEstudiante: TrabajoEstudiante.cpp TrabajoEstudiante.h

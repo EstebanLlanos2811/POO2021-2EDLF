@@ -1,0 +1,12 @@
+Facultad de Ingenieria
+Pontificia Universidad Javeriana de Cali
+Maestria en Ingenieria de SistemasEl numero de acta es: 0
+La fecha de acta es: 99
+El nombre del estidiante es: l
+El nombre del trabajo es: l
+El tipo de trabajo es: l
+El nombre del director es: l
+El nombre del codirector es: NA
+
+El nombre del primer jurado es: l
+El nombre del segundo jurado es: l

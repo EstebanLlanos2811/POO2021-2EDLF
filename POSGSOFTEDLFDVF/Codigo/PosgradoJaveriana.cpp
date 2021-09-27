@@ -46,22 +46,7 @@ void PosgradoJaveriana::agregarTrabajoEstudiantes() //Se encarga de preguntarle 
 
 void PosgradoJaveriana::agregarCriterios() //Se encarga de preguntarle al director o directora los criterios a ser evaluados y el valor de los mismos
 {
-
-}
-
-float PosgradoJaveriana::calcularNotaFinal() //Como su nombre lo indica se encarga de calcular la nota final por medio de las notas publicadas por los dos jurados
-{
-    int i;
-    float notaJurado1 = 0, notaJurado2 = 0, notaFinal = 0;
-    for (vector<Acta>::iterator pActa = actas.begin(); pActa != actas.end(); pActa++)
-	{
-		vector<DetalleActa> detalleTemp = pActa -> getDetalles();
-		for (vector<DetalleActa>::iterator pDetalle = detalleTemp.begin(); pDetalle != detalleTemp.end(); pDetalle++)
-		{
-			DetalleActa detalle1 = *pDetalle;
-		}
-	}
-    
+  
 }
 
 void PosgradoJaveriana::mostrarActas() //Se encarga de imprimir la informacion correspondiente al acta
@@ -74,7 +59,6 @@ void PosgradoJaveriana::mostrarActas() //Se encarga de imprimir la informacion c
 		{
             DetalleActa detalle1 = *pDetalle;
             detalle1.mostrarDetalle();
-
         }
     }
 }

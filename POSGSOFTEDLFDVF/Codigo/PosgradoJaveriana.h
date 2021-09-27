@@ -29,7 +29,7 @@ public: //Metodos
     void mostrarActas();
     void agregarTrabajoEstudiantes();
     void agregarCriterios();
-    float calcularNotaFinal();
+    float calcularNotaFinal(float valorCriterios);
     void modificarCriterios();
     void modificarValorCriterios();
 };

@@ -47,7 +47,6 @@ public:
     void setNombreJurado1(string nombreJurado1);
     string getNombreJurado2();
     void setNombreJurado2(string nombreJurado2);
-    float getNotaJurado1();
 };
 
 #endif //!TRABAJOESTUDIANTE_H
