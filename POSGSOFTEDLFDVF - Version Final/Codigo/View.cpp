@@ -1,3 +1,4 @@
+
 #include "View.h"
 
 View::View() //Inicializa las variables y los atributos
@@ -10,7 +11,7 @@ void View::mostrarCriterios() //Muestra un menu de criterios para el director o 
     do
     {
 
-        cout << "Menu Criterios\n";
+        cout << "\nMenu Criterios\n";
         cout << "1. Agregar Criterios \n";
         cout << "2. Modificar Criterios \n";
         cout << "3. Mostrar Criterios \n";
@@ -39,7 +40,7 @@ void View::mostrarMenu() //Este es el menu principal del programa, menu en el cu
     do
     {
 
-        cout << "Menu Acta\n";
+        cout << "\nMenu Acta\n";
         cout << "1. Si eres el o la asistente \n";
         cout << "2. si eres el o la directora \n"; //Menu inicial
         cout << "3. si eres jurado \n";
@@ -53,7 +54,7 @@ void View::mostrarMenu() //Este es el menu principal del programa, menu en el cu
             case 1:
                 do
                 {
-                    cout<< "Menu Asistente \n";
+                    cout<< "\nMenu Asistente \n";
                     cout << "1. Agregar una Acta \n";
                     cout << "2. Ver Actas \n"; //Menu de el o la asistente
                     cout << "0. Salir \n";
@@ -74,8 +75,8 @@ void View::mostrarMenu() //Este es el menu principal del programa, menu en el cu
             case 2:
                 do
                 {
-                    cout<< "Menu Director \n";
-                    cout << "1. Modificar Criterios \n";
+                    cout<< "\nMenu Director \n";
+                    cout << "1. Criterios \n";
                     cout << "2. Ver Actas \n";
                     cout << "0. Salir \n";    //Menu del director o directora
                     std::cout << "Digita el numero: ";
@@ -95,7 +96,7 @@ void View::mostrarMenu() //Este es el menu principal del programa, menu en el cu
             case 3:
                 do
                 {
-                    cout<< "Menu Jurado \n";
+                    cout<< "\nMenu Jurado \n";
                     cout << "1. Calcular Nota \n";
                     cout << "2. Exportar Acta \n";
                     cout << "0. Salir \n";    //Menu del jurado

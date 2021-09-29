@@ -1,3 +1,7 @@
+#ifndef POSGRADOJAVERIANA_H
+//Guardas
+#define POSGRADOJAVERIANA_H
+
 #include <iostream>
 #include <string>
 #include <string.h>
@@ -36,3 +40,4 @@ public:
     void mostrarCriterios();
 };
 
+#endif //!POSGRADOJAVERIANA_H

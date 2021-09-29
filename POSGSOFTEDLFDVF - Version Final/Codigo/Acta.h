@@ -1,3 +1,7 @@
+#ifndef ACTA_H
+//Guardas
+#define ACTA_H
+
 #include <iostream>
 #include <stdlib.h>
 #include "DetalleActa.h"
@@ -55,6 +59,7 @@ public:
         Estado getEstado();
         void setEstado(Estado estado);
         float getNotaFinal();
-        void setNotaFinal();
+        void setNotaFinal(float notaFinal);
         vector<DetalleActa> getDetalles() const { return listaDetalles; }
 };
+#endif //!ACTA_H

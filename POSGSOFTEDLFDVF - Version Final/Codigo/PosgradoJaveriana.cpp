@@ -13,6 +13,7 @@ void PosgradoJaveriana::agregarCriterios()
     float valorTempFinal = 0.0;
     for(i = 0; i < CAP; i++)
     {
+        fflush(stdin);
         cout << "ingrese el criterio:\n";
         getline(cin, criterioTemp);
         cout << "ingrese el valor del criterio: ";
@@ -139,6 +140,7 @@ void PosgradoJaveriana::exportarActa()
         archivo << "Facultad de Ingenieria \n";
         archivo << "Pontificia Universidad Javeriana de Cali \n";
         archivo << "Maestria en Ingenieria de Sistemas \n";
+        archivo << "======================================== \n";
         archivo << "El numero de acta es: " << actas[numeroActa].getNumeroActa() << "\n";
         archivo << "La fecha de acta es: " << actas[numeroActa].getFecha() << "\n";
         archivo << "El nombre del estidiante es: " << actas[numeroActa].getNombreEstudiante() << "\n";

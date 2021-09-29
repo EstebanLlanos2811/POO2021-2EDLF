@@ -1,3 +1,7 @@
+#ifndef DETALLEACTA_H
+//Guardas
+#define DETALLEACTA_H
+
 #include <iostream>
 #include <stdlib.h>
 #include <string.h>
@@ -27,3 +31,5 @@ public:
     Criterios getCriterios();
     void setCriterios(Criterios criterio);
 };
+
+#endif //!DETALLEACTA_H

@@ -124,3 +124,12 @@ void Acta::setNombreJurado2(string nombreJurado2)
 {
     this->nombreJurado2 = nombreJurado2;
 }
+
+float Acta::getNotaFinal()
+{
+    return this->notaFinal;
+}
+void Acta::setNotaFinal(float notaFinal)
+{
+    this->notaFinal = notaFinal;
+}
