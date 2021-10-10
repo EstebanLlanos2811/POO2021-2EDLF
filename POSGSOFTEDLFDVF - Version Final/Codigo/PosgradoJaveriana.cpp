@@ -125,7 +125,6 @@ void PosgradoJaveriana::mostrarCriterios()
 void PosgradoJaveriana::exportarActa()
 {
     ofstream archivo;
-    string nombreArchivo;
     int numeroActa;
     cout << "Ingrese el acta que desea imprimir: ";
     cin >> numeroActa;
